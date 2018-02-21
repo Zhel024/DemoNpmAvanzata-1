@@ -1,0 +1,24 @@
+{
+  "name": "demonpm",
+  "version": "1.0.0",
+  "description": "esercitazione sulla demo npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sorrentmutie/DemoNpmAvanzata.git"
+  },
+  "keywords": [
+    "npm",
+    "JavaScript",
+    "Git"
+  ],
+  "author": "Sami Arrom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sorrentmutie/DemoNpmAvanzata/issues"
+  },
+  "homepage": "https://github.com/sorrentmutie/DemoNpmAvanzata#readme"
+}
