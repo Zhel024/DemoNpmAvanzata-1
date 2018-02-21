@@ -1,3 +1,9 @@
+function aggiuntaTagP(testo,contenitore){
+    var p = document.createElement('p');
+    p.innerText = testo;
+    document.getElementById(contenitore).append(p);
+}
+
 function caricaData(){ 
     setTimeout(function(){
         moment('it');
@@ -9,21 +15,10 @@ function caricaData(){
         var dataestesa = data.format('hh:mm:ss');
         var dataintera = data.format('LLL');
         var settimana = data.format('LLLL');
-
-        var p = document.createElement('p');
-        var p1 = document.createElement('p');
-        var p2 = document.createElement('p');
-        var p3 =document.createElement('p');
-
-        p.innerText = dataestesa;
-        p1.innerText = dataintera;
-        p2.innerText = settimana;
-        p3.innerText = dataScadenzaStringa;
-        
-        document.getElementById('contenitore').append(p);
-        document.getElementById('contenitore').append(p1);
-        document.getElementById('contenitore').append(p2);
-        document.getElementById('contenitore').append(p3);
-
+        aggiuntaTagP(dataestesa,'contenitore');
+        aggiuntaTagP(dataintera,'contenitore');
+        aggiuntaTagP(settimana,'contenitore');
+        aggiuntaTagP(dataScadenzaStringa,'contenitore');   
     }, 1000);
 }
+
