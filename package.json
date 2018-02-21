@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/sorrentmutie/DemoNpmAvanzata/issues"
   },
-  "homepage": "https://github.com/sorrentmutie/DemoNpmAvanzata#readme"
+  "homepage": "https://github.com/sorrentmutie/DemoNpmAvanzata#readme",
+  "dependencies": {
+    "moment": "2.20.1"
+  }
 }
