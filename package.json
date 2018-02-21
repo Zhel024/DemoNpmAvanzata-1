@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/sorrentmutie/DemoNpmAvanzata#readme",
   "dependencies": {
+    "bootstrap": "3.3.7",
     "jquery": "^3.3.1",
     "moment": "2.20.1"
   },
